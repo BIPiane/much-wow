@@ -1,0 +1,16 @@
+{
+    "name": "bipiane/much-wow",
+    "description": "So much test wow!",
+    "type": "composer-plugin",
+    "require": {
+        "firebase/php-jwt": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Pianetti",
+            "email": "ivanpianetti23@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
