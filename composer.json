@@ -3,9 +3,6 @@
   "description": "So much test wow!",
   "homepage": "https://github.com/BIPiane/much-wow",
   "type": "composer-plugin",
-  "require": {
-    "firebase/php-jwt": "^5.0"
-  },
   "license": "MIT",
   "authors": [
     {
