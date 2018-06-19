@@ -8,17 +8,19 @@
 
 namespace QueryBuilder\MuchWow;
 
+use Symfony\Component\HttpFoundation\Request;
+
 class MuchWow
 {
     /**
      * Transforma los parámetros REST en una lista de criterias necesarias para QueryBuilder.
-     * @param array $query
+     * @param Request $request
      * @return array
      */
-    public static function obtenerCriterias(array $query)
+    public static function obtenerCriterias(Request $request)
     {
         $criterias = [];
-        foreach ($query as $param => $value){
+        foreach ($request->query->all () as $param => $value){
             if (is_array ($value)){
                 foreach ($value as $criteria => $valor){
                     array_push ($criterias, [$param, MuchWow::mapCriteria ($criteria), $valor]);
