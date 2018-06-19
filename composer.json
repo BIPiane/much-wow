@@ -2,7 +2,6 @@
   "name": "bipiane/much-wow",
   "description": "So much test wow!",
   "homepage": "https://github.com/BIPiane/much-wow",
-  "type": "composer-plugin",
   "license": "MIT",
   "authors": [
     {
